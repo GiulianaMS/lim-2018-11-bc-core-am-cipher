@@ -23,5 +23,4 @@ function loadDecipher(){
 		result = result+equation;
 	}
 	document.getElementById("printDecipher").innerHTML= result;
-
 }
