@@ -1,0 +1,73 @@
+body{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 960px;
+}
+.start{
+	padding-top: 300px;
+}
+.button-start{
+	float: left;
+	width: 90%;
+}
+.user{
+	padding-top:50px;
+}
+.button-user{
+	float: right; 
+	padding: 80px;
+	width: 100px;
+	display: inline-block;
+}
+
+p{
+	font-size:20px;
+	color: #000000;
+	font-family: Segoe UI; 
+	font-weight: bold;
+}
+form{
+	background: white;
+	margin: 0 auto;
+	width: 300px;
+	padding: 20px;
+	border-radius: 25px;	
+
+}
+input, button{
+	margin-bottom: : 20px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #0000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+label{
+	font-family: Century Gothic;
+	font-size: 13px;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+}
+button:focus,{
+	border: 1px solid #1668C4;
+}
+button[type="button"]{
+	margin-bottom: :0;
+	background: #1668C4;
+	color: #fff;
+	border: none;
+	padding: 10px;
+}
+button[type="button"]:hover{
+	background: #4A88F4;
+	cursor: pointer;
+}

@@ -5,17 +5,24 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root">
-      <h1>Cifrado Cesar</h1>
-      <input type="text" name="texto" id="idSentence"/>Ingrese su frase<br>
-      <input type="number" name="numero" id="idKey"/>Ingrese su codigo<br>
-      <button type="button" id = "idCode" onclick="loadCode()">Cifrar</button>
-      <button type="button" id = "idDecipher" onclick="loadDecipher()">Descifrar</button>
-      <p>La palabra cifrada es:</p>
-      <p id ="printCode"></p>
-      <p>La palabra descrifrada es:</p>
-      <p id = "printDecipher"></p>
+  <body background= ../img/fondo-page1.jpg>
+    <div class="container">
+       <!--<div id="root">
+          <h1>Cifrado Cesar</h1>
+          <input type="text" name="texto" id="idSentence"/>Ingrese su frase<br>
+          <input type="number" name="numero" id="idKey"/>Ingrese su codigo<br>
+          <button type="button" id = "idCode" onclick="loadCode()">Cifrar</button>
+          <button type="button" id = "idDecipher" onclick="loadDecipher()">Descifrar</button>
+          <p>La palabra cifrada es:</p>
+          <p id ="printCode"></p>
+          <p>La palabra descrifrada es:</p>
+          <p id = "printDecipher"></p>
+        </div>-->
+      <div class="start"> 
+          <div class = "button-start">
+              <a href="user.html"><img src="../img/btn-start.png"></a>
+          </div>
+      </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
