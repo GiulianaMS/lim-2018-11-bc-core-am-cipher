@@ -8,16 +8,19 @@
 <body background= ../img/fondo-page3.jpg>
 	<div class="container">
 	 <form>
-	 	<label for="idSentence">Ingrese su frase:</label>
-	 	<input type="text" name="texto" id="idSentence" placeholder="Escribe tu texto aqui" />
-	 	<label for="idKey">Ingrese su codigo:</label>
-        <input type="number" name="numero" id="idKey" placeholder="Escribe tu codigo aqui"/>
+	 	<label for="idString">Ingrese su frase:</label>
+	 	<input type="text" name="texto" id="idString" 
+        placeholder="Escribe tu texto aqui" />
+
+	 	<label for="idOffset">Ingrese su codigo:</label>
+        <input type="number" name="numero" id="idOffset" placeholder="Escribe tu codigo aqui"/>
+
         <button type="button" id = "idCode" onclick="loadCode()">Cifrar</button>
         <button type="button" id = "idDecipher" onclick="loadDecipher()">Descifrar</button>
         <label>La frase cifrada es:</label>
   		<span id ="printCode"></span>
         <label>La frase descrifrada es:</label>
-        <p id = "printDecipher"></p>
+        <span id = "printDecipher"></span>
 	 </form>
     </div>
     <script src="cipher.js"></script>
