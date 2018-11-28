@@ -1,19 +1,20 @@
+const printCode=document.getElementById("idCode");
+const printDecipher=document.getElementById("idDecipher");
 
 const loadCode = ()=>{
 	const string = document.getElementById("idString").value;
 	const offset = parseInt(document.getElementById("idOffset").value);
 	const fcifrar=cipher.encode(offset,string);
-	let equation;
 	document.getElementById("printCode").innerHTML= fcifrar;
 }
 const loadDecipher = () =>{
 	const string = document.getElementById("idString").value;
 	const offset = parseInt(document.getElementById("idOffset").value);
 	const fcifrar=cipher.decode(offset,string);
-	let equation;
 	document.getElementById("printDecipher").innerHTML= fcifrar;
 }
-
+printCode.addEventListener('click',loadCode);
+printDecipher.addEventListener('click',loadDecipher);
 /*function loadCode(){
 	const sentence = document.getElementById("idSentence").value;
 	const key = parseInt(document.getElementById("idKey").value);

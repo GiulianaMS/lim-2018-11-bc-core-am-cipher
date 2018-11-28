@@ -5,7 +5,8 @@
 	<title>Caesar Cipher</title>
 	<link rel="stylesheet" href="style.css" />
 </head>
-<body background= ../img/fondo-page3.jpg>
+<body>
+    <!-- background= ../img/fondo-page3.jpg -->
 	<div class="container">
 	 <form>
 	 	<label for="idString">Ingrese su frase:</label>
@@ -14,9 +15,8 @@
 
 	 	<label for="idOffset">Ingrese su codigo:</label>
         <input type="number" name="numero" id="idOffset" placeholder="Escribe tu codigo aqui"/>
-
-        <button type="button" id = "idCode" onclick="loadCode()">Cifrar</button>
-        <button type="button" id = "idDecipher" onclick="loadDecipher()">Descifrar</button>
+        <button type="button" id = "idCode">Cifrar</button>
+        <button type="button" id = "idDecipher">Descifrar</button>
         <label>La frase cifrada es:</label>
   		<span id ="printCode"></span>
         <label>La frase descrifrada es:</label>
