@@ -3,6 +3,7 @@ window.cipher = {
 		let result = "";
 		let equation;
 		for (let i = 0 ; i <= string.length-1; i++){
+			string = string.toUpperCase();
 			if(string.charCodeAt(i) === 32){
 				equation = " ";
 			}else{
@@ -16,6 +17,7 @@ window.cipher = {
 		let result = "";
 		let equation;
 		for (let i = 0 ; i <= string.length-1; i++){
+			string = string.toUpperCase();
 			if(string.charCodeAt(i) === 32){
 				equation = " ";
 			}else {

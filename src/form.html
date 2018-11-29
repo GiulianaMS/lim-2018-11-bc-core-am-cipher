@@ -5,9 +5,22 @@
 	<title>Caesar Cipher</title>
 	<link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <!-- background= ../img/fondo-page3.jpg -->
-	<div class="container">
+<body class="fondo-page3">
+    <form>
+        <label for="idOffset">CODIGO</label>
+        <input type="text" name="numero" id="idOffset" maxlength="4" placeholder="Escribe tu codigo aqui" />
+        <!-- event.returnValue = false; -->
+        <label for="idString">MENSAJE</label>
+        <textarea type="text" name="texto" id="idString" 
+        placeholder="Escribe tu texto aqui"></textarea>
+        <button type="button" id = "idCode">CIFRAR</button>
+        <button type="button" id = "idDecipher">DESCIFRAR</button>
+        <textarea type="text" name="texto" id="idPrint" 
+        placeholder="Tu resultado es:" readonly></textarea>
+        <img type="button" id = "idClean" src="../img/trash-can.png">
+        <a href="index.html"><img src="../img/house.png"></a>
+    </form>
+	<!-- <div class="container">
 	 <form>
 	 	<label for="idString">Ingrese su frase:</label>
 	 	<input type="text" name="texto" id="idString" 
@@ -15,6 +28,7 @@
 
 	 	<label for="idOffset">Ingrese su codigo:</label>
         <input type="number" name="numero" id="idOffset" placeholder="Escribe tu codigo aqui"/>
+
         <button type="button" id = "idCode">Cifrar</button>
         <button type="button" id = "idDecipher">Descifrar</button>
         <label>La frase cifrada es:</label>
@@ -22,7 +36,7 @@
         <label>La frase descrifrada es:</label>
         <span id = "printDecipher"></span>
 	 </form>
-    </div>
+    </div> -->
     <script src="cipher.js"></script>
     <script src="index.js"></script>
 </body>
