@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-16">
+	<title>Caesar Cipher</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body class="fondo-page3">
+    <form>
+        <label for="idOffset">CODIGO</label>
+        <input type="text" name="numero" id="idOffset" maxlength="4" placeholder="Escribe tu codigo aqui" />
+        <!-- event.returnValue = false; -->
+        <label for="idString">MENSAJE</label>
+        <textarea type="text" name="texto" id="idString" 
+        placeholder="Escribe tu texto aqui"></textarea>
+        <button type="button" id = "idCode">CIFRAR</button>
+        <button type="button" id = "idDecipher">DESCIFRAR</button>
+        <textarea type="text" name="texto" id="idPrint" 
+        placeholder="Tu resultado es:" readonly></textarea>
+        <img type="button" id = "idClean" src="../img/trash-can.png">
+        <a href="index.html"><img src="../img/house.png"></a>
+    </form>
+    <script src="cipherSpecial.js"></script>
+    <script src="indexSpecial.js"></script>
+</body>
+</html>

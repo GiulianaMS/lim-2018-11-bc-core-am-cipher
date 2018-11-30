@@ -31,7 +31,7 @@ div{
 	margin-top:250px;
 }
 .btn-user{
-	margin-right: 250px;
+	margin-right: 300px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	height: 500px;
@@ -40,16 +40,25 @@ div{
 	width: 49%;
 	box-sizing: border-box;
 	padding: 0px;
-	margin-top:150px;
-	margin-bottom: 100px;
+	margin-top:30px;
+	margin-bottom: 10px;
 	border: 5px solid black;
 }
 .btn-user2{
 	width: 49%;
 	box-sizing: border-box;
 	padding: 0px;
-	margin-top:150px;
-	margin-bottom: 100px;
+	margin-top:30px;
+	margin-bottom: 10px;
+	border: 5px solid black;
+}
+.btn-user3{
+	width: 49%;
+	box-sizing: border-box;
+	padding: 0px;
+	margin-top:50px;
+	margin-bottom: 10px;
+	margin-left: 100px;
 	border: 5px solid black;
 }
 .btn-back{
@@ -83,7 +92,6 @@ input, textarea{
 	box-sizing: border-box;
 	font-size: 17px;
 	border: none;
-	text-transform: uppercase;
 }
 textarea{
 	min-height: 100px;
