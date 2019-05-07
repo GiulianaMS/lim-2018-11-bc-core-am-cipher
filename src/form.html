@@ -1,43 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Caesar Cipher</title>
-	<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+  <title>Arcano</title>
 </head>
 <body class="fondo-page3">
-    <form>
-        <label for="idOffset">CODIGO</label>
-        <input type="text" name="numero" id="idOffset" maxlength="4" placeholder="Escribe tu codigo aqui" />
-        <!-- event.returnValue = false; -->
-        <label for="idString">MENSAJE</label>
-        <textarea type="text" name="texto" id="idString" 
-        placeholder="Escribe tu texto aqui"></textarea>
-        <button type="button" id = "idCode">CIFRAR</button>
-        <button type="button" id = "idDecipher">DESCIFRAR</button>
-        <textarea type="text" name="texto" id="idPrint" 
-        placeholder="Tu resultado es:" readonly></textarea>
-        <img type="button" id = "idClean" src="../img/trash-can.png">
-        <a href="index.html"><img src="../img/house.png"></a>
-    </form>
-	<!-- <div class="container">
-	 <form>
-	 	<label for="idString">Ingrese su frase:</label>
-	 	<input type="text" name="texto" id="idString" 
-        placeholder="Escribe tu texto aqui" />
-
-	 	<label for="idOffset">Ingrese su codigo:</label>
-        <input type="number" name="numero" id="idOffset" placeholder="Escribe tu codigo aqui"/>
-
-        <button type="button" id = "idCode">Cifrar</button>
-        <button type="button" id = "idDecipher">Descifrar</button>
-        <label>La frase cifrada es:</label>
-  		<span id ="printCode"></span>
-        <label>La frase descrifrada es:</label>
-        <span id = "printDecipher"></span>
-	 </form>
-    </div> -->
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+  <form class="form-cipher">
+    <label for="idOffset">CODIGO</label>
+    <input type="text" name="numero" id="idOffset" maxlength="4" placeholder="Escribe tu codigo aqui" />
+    <label for="idString">MENSAJE</label>
+    <textarea type="text" name="texto" id="idString" placeholder="Escribe tu texto aqui"></textarea>
+    <button class="btn-form" type="button" id = "idCode">CIFRAR</button>
+    <button class="btn-form" type="button" id = "idDecipher">DESCIFRAR</button>
+    <textarea type="text" name="texto" id="idPrint" placeholder="Tu resultado es:" readonly></textarea>
+    <img class="img-form" type="button" id = "idClean" src="../img/trash-can.png">
+    <a href="index.html"><img class="img-form" src="../img/house.png"></a>
+  </form>
+  <script src="cipherSpecial.js"></script>
+    <script src="indexSpecial.js"></script>
 </body>
 </html>

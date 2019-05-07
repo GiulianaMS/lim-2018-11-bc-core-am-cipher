@@ -8,6 +8,7 @@
   "extends": "eslint:recommended",
   "globals": {
     "cipher": false,
-    "cipherSpecial": false
+    "cipherSpecial": false,
+    "cipherNumber":false
   }
 }
